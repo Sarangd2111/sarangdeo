@@ -18,7 +18,7 @@ const Navbar = () => {
     <nav className="navbar" data-aos="fade-down">
       <div className="nav-container">
         <div className="site-name">
-          <Link to='/SD-Portfolio/' style={{ textDecoration: 'none' }}>{/* <img src="./sd_favicon.png" alt="sd_logo" className="logo"/> */}
+          <Link to='/sarangdeo/' style={{ textDecoration: 'none' }}>{/* <img src="./sd_favicon.png" alt="sd_logo" className="logo"/> */}
             <span className="heading">Sarang Deo</span>
           </Link>
         </div>
