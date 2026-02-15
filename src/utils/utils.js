@@ -19,11 +19,11 @@ import green_theme from '../images/green_theme.png'
 import yellow_theme from '../images/yellow_theme.png'
 
 export const navElements = [
-  { element: "Home", path: "/SD-Portfolio/" },
-  { element: "About", path: "/SD-Portfolio/about" },
-  { element: "Skills", path: "/SD-Portfolio/skills" },
-  { element: "Projects", path: "/SD-Portfolio/projects" },
-  { element: "Contact", path: "/SD-Portfolio/contact" },
+  { element: "Home", path: "/sarangdeo/" },
+  { element: "About", path: "/sarangdeo/about" },
+  { element: "Skills", path: "/sarangdeo/skills" },
+  { element: "Projects", path: "/sarangdeo/projects" },
+  { element: "Contact", path: "/sarangdeo/contact" },
 ];
 
 export const nameLetters = [
