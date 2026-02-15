@@ -1,0 +1,221 @@
+body {
+  margin: 0;
+  font-family: "Teko", sans-serif !important;
+  overflow-x: hidden;
+  max-width: 100vw;
+  /* overflow-y: hidden; */
+}
+
+body::-webkit-scrollbar {
+  display: none;
+}
+
+::selection {
+  background: var(--main-font-color);   /* Highlight color */
+  color: #000;          /* Selected text color */
+}
+
+[site-theme="cyan"] {
+  --background: rgb(30, 30, 30);
+  --main-font-color: #6bf8ff;
+  --name-font-color: #6bf8ff;
+  --details-font-color: white;
+  --nav-color: black;
+  --secondary-font-color: white;
+  --secondary-background: rgb(38, 38, 38);
+  --card-background-color: rgb(38, 38, 38);
+  --card-back-background-color: black;
+  --card-line-color: #6bf8ff;
+  --card-border-color: rgb(30, 30, 30);
+  --nav-font-color: white;
+  --nav-font-hover-color: #6bf8ff;
+  --nav-shadow: #6bf8ff;
+  --button-background-color: rgb(38, 38, 38);
+  --button-text-color: #6bf8ff;
+  --primary-shadow: black;
+  --light-shadow: #6bf8ff;
+  --box-border-color: rgb(38, 38, 38);
+  --box-background: rgb(30, 30, 30);
+  --cube-face-color: black;
+  --panel-background-color: black;
+  --panel-font-color: #6bf8ff;
+  --timeline-border-color: white;
+  --panel-button-color: #6bf8ff;
+  --border-gradient: linear-gradient(
+    45deg,
+    #6bf8ff 0%,
+    #4be4ec 11%,
+    #1ccfd9 22%,
+    #01b2bc 33%,
+    #019198 44%,
+    #019198 55%,
+    #01a4ad 66%,
+    #1cc1ca 77%,
+    #49dce4 89%,
+    #6bf8ff 100%
+  );
+}
+
+[site-theme="violet"] {
+  --background: rgb(30, 30, 30);
+  --main-font-color: #edc3ff;
+  --name-font-color: #edc3ff;
+  --details-font-color: white;
+  --nav-color: black;
+  --secondary-font-color: white;
+  --secondary-background: rgb(38, 38, 38);
+  --card-background-color: rgb(38, 38, 38);
+  --card-back-background-color: black;
+  --card-line-color: #edc3ff;
+  --card-border-color: rgb(30, 30, 30);
+  --nav-font-color: white;
+  --nav-font-hover-color: #edc3ff;
+  --nav-shadow: #edc3ff;
+  --button-background-color: rgb(38, 38, 38);
+  --button-text-color: #edc3ff;
+  --primary-shadow: black;
+  --light-shadow: #edc3ff;
+  --box-border-color: rgb(38, 38, 38);
+  --box-background: rgb(30, 30, 30);
+  --cube-face-color: black;
+  --panel-background-color: black;
+  --panel-font-color: #edc3ff;
+  --timeline-border-color: white;
+  --panel-button-color: #edc3ff;
+  --border-gradient: linear-gradient(
+    45deg,
+    #edc3ff 0%,
+    #c188da 11%,
+    #a166ba 22%,
+    #8e4aab 33%,
+    #6d2d89 44%,
+    #682a83 55%,
+    #8e4aab 66%,
+    #a166ba 77%,
+    #c188da 89%,
+    #edc3ff 100%
+  );
+}
+
+[site-theme="orange"] {
+  --background: rgb(30, 30, 30);
+  --main-font-color: #ffbb7f;
+  --name-font-color: #ffbb7f;
+  --details-font-color: white;
+  --nav-color: black;
+  --secondary-font-color: white;
+  --secondary-background: rgb(38, 38, 38);
+  --card-background-color: rgb(38, 38, 38);
+  --card-back-background-color: black;
+  --card-line-color: #ffbb7f;
+  --card-border-color: rgb(30, 30, 30);
+  --nav-font-color: white;
+  --nav-font-hover-color: #ffbb7f;
+  --nav-shadow: #ffbb7f;
+  --button-background-color: rgb(38, 38, 38);
+  --button-text-color: #ffbb7f;
+  --primary-shadow: black;
+  --light-shadow: #ffbb7f;
+  --box-border-color: rgb(38, 38, 38);
+  --box-background: rgb(30, 30, 30);
+  --cube-face-color: black;
+  --panel-background-color: black;
+  --panel-font-color: #ffbb7f;
+  --timeline-border-color: white;
+  --panel-button-color: #ffbb7f;
+  --border-gradient: linear-gradient(
+    45deg,
+    #ffbb7f 0%,
+    #ffb473 11%,
+    #fea75a 22%,
+    #fb9f4f 33%,
+    #f68829 44%,
+    #f68829 55%,
+    #fb9f4f 66%,
+    #fea75a 77%,
+    #ffb473 89%,
+    #ffbb7f 100%
+  );
+}
+
+[site-theme="green"] {
+  --background: rgb(30, 30, 30);
+  --main-font-color: #a2ffa2;
+  --name-font-color: #a2ffa2;
+  --details-font-color: white;
+  --nav-color: black;
+  --secondary-font-color: white;
+  --secondary-background: rgb(38, 38, 38);
+  --card-background-color: rgb(38, 38, 38);
+  --card-back-background-color: black;
+  --card-line-color: #a2ffa2;
+  --card-border-color: rgb(30, 30, 30);
+  --nav-font-color: white;
+  --nav-font-hover-color: #a2ffa2;
+  --nav-shadow: #a2ffa2;
+  --button-background-color: rgb(38, 38, 38);
+  --button-text-color: #a2ffa2;
+  --primary-shadow: black;
+  --light-shadow: #a2ffa2;
+  --box-border-color: rgb(38, 38, 38);
+  --box-background: rgb(30, 30, 30);
+  --cube-face-color: black;
+  --panel-background-color: black;
+  --panel-font-color: #a2ffa2;
+  --timeline-border-color: white;
+  --panel-button-color: #a2ffa2;
+  --border-gradient: linear-gradient(
+    45deg,
+    #a2ffa2 0%,
+    #a2ffa2 11%,
+    #86e586 22%,
+    #64ce64 33%,
+    #40b340 44%,
+    #289f28 55%,
+    #40b340 66%,
+    #64ce64 77%,
+    #86e586 89%,
+    #a2ffa2 100%
+  );
+}
+
+[site-theme="yellow"] {
+  --background: rgb(30, 30, 30);
+  --main-font-color: rgb(255, 255, 161);
+  --name-font-color: rgb(255, 255, 161);
+  --details-font-color: white;
+  --nav-color: black;
+  --secondary-font-color: white;
+  --secondary-background: rgb(38, 38, 38);
+  --card-background-color: rgb(38, 38, 38);
+  --card-back-background-color: black;
+  --card-line-color: rgb(255, 255, 161);
+  --card-border-color: rgb(30, 30, 30);
+  --nav-font-color: white;
+  --nav-font-hover-color: rgb(255, 255, 161);
+  --nav-shadow: rgb(255, 255, 161);
+  --button-background-color: rgb(38, 38, 38);
+  --button-text-color: rgb(255, 255, 161);
+  --primary-shadow: black;
+  --light-shadow: rgb(255, 255, 161);
+  --box-border-color: rgb(38, 38, 38);
+  --box-background: rgb(30, 30, 30);
+  --cube-face-color: black;
+  --panel-background-color: black;
+  --panel-font-color: rgb(255, 255, 161);
+  --timeline-border-color: white;
+  --panel-button-color: rgb(255, 255, 161);
+  --border-gradient: linear-gradient(
+    45deg,
+    rgb(255, 255, 161) 0%,
+    rgb(255, 255, 131) 11%,
+    rgb(255, 255, 131) 22%,
+    rgb(255, 255, 109) 33%,
+    rgb(255, 255, 86) 44%,
+    rgb(255, 255, 0)  55%,
+    rgb(255, 255, 86) 66%,
+    rgb(255, 255, 109) 77%,
+    rgb(255, 255, 131) 89%,
+    rgb(255, 255, 161) 100%
+  );
+}

@@ -1,0 +1,28 @@
+.projectspage {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.projects {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 80px;
+  row-gap: 20px;
+}
+
+.project {
+  padding-top: 35px;
+  padding-bottom: 30px;
+}
+
+.project-heading{
+  font-size: 60px;
+  color: var(--name-font-color);
+  text-shadow: 5px 5px 10px var(--primary-shadow);
+  width: 100%;
+  font-weight: 100;
+  margin-top: 100px;
+}

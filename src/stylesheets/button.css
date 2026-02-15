@@ -1,0 +1,58 @@
+/* CSS */
+.button {
+    --b: 3px;   /* border thickness */
+    --s: .45em; /* size of the corner */
+    
+    padding: calc(.5em + var(--s)) calc(.9em + var(--s));
+    color: var(--button-text-color);
+    --_p: var(--s);
+    background:
+      conic-gradient(from 90deg at var(--b) var(--b),#0000 90deg, var(--main-font-color)  0)
+      var(--_p) var(--_p)/calc(100% - var(--b) - 2*var(--_p)) calc(100% - var(--b) - 2*var(--_p));
+    transition: .3s linear, color 0s, background-color 0s;
+    outline: var(--b) solid #0000;
+    outline-offset: .6em;
+    font-size: 16px;
+    border: 0;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    box-shadow:3px 3px 3px var(--nav-color), 3px 3px 2px var(--nav-color) inset;
+    font-family: "Teko", sans-serif;
+  }
+  
+  
+  .button{
+    padding: 20px;
+    padding-left: 30px;
+    padding-right: 30px;
+    font-size: 25px;
+  }
+  
+
+  
+  .button:hover,
+  .button:focus-visible{
+    --_p: 0px;
+    outline-color: var(--main-font-color);
+    outline-offset: .05em;
+    box-shadow: 8px 8px 8px var(--nav-color), 3px 3px 8px var(--nav-color) inset;
+    cursor: pointer;
+    border-bottom-right-radius: 15px;
+    border-top-left-radius: 15px;
+  }
+  
+  .button:active {
+    background: var(--secondary-background-color);
+    box-shadow: 4px 4px 4px var(--main-font-color), 2px 2px 2px var(--nav-color) inset;
+    outline-color: var(--main-font-color);
+    outline-offset: .05em;
+    background:
+      conic-gradient(from 90deg at var(--b) var(--b),var(--secondary-background-color) 90deg,var(--main-font-color)  0)
+      var(--_p) var(--_p)/calc(100% - var(--b) - 2*var(--_p)) calc(100% - var(--b) - 2*var(--_p));
+    transition: .3s , color 0s, background-color 0s;
+  }
+  
+
+  
+  

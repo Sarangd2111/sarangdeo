@@ -1,0 +1,43 @@
+@keyframes light-effect {
+  0% {
+    box-shadow: 3px 5px 100px var(--main-font-color), 5px 5px 10px var(--main-font-color) inset;
+    text-shadow: 8px 8px 10px black;
+    opacity: 1;
+  }
+  50% {
+    border: 5px solid rgb(38, 38, 38);
+    box-shadow: 3px 5px 10px black, 5px 5px 10px black inset;
+    text-shadow: none;
+    opacity: 0.85;
+  }
+  90% {
+    box-shadow: 3px 5px 10px var(--main-font-color), 5px 5px 10px var(--main-font-color) inset;
+    text-shadow: 8px 8px 10px black;
+    opacity: 1;
+  }
+  95% {
+    border: 5px solid rgb(38, 38, 38);
+    box-shadow: 3px 5px 10px black, 5px 5px 10px black inset;
+    text-shadow: none;
+    opacity: 0.85;
+  }
+  100% {
+    box-shadow: 3px 5px 100px var(--main-font-color), 5px 5px 10px var(--main-font-color) inset;
+    text-shadow: 8px 8px 10px black;
+    opacity: 1;
+  }
+}
+
+
+
+@keyframes steam {
+  0% {
+    background-position: 0 0;
+  }
+  50% {
+    background-position: 400% 0;
+  }
+  100% {
+    background-position: 0 0;
+  }
+}

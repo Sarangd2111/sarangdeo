@@ -1,0 +1,98 @@
+.contactpage {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.contact-heading {
+  font-size: 60px;
+  color: var(--name-font-color);
+  text-shadow: 5px 5px 10px var(--primary-shadow);
+  width: 100%;
+  font-weight: 100;
+  margin-top: 30vh;
+}
+
+.contact-heading span {
+  cursor: pointer;
+}
+
+.contacts {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.social-media {
+  width: 70px;
+  height: 70px;
+  background-color: var(--secondary-background);
+  border-radius: 20px;
+  border: 2px rgb(38, 38, 38) solid;
+  box-shadow: 3px 3px 5px black, 3px 3px 5px inset black;
+  transition: 0.3s ease;
+  margin-top: 5%;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.social-media:hover {
+  animation: light-effect1 0.5s;
+  box-shadow: 3px 5px 10px var(--main-font-color), 2px 2px 5px var(--main-font-color) inset;
+  cursor: pointer;
+  transition: 0.3s !important;
+}
+
+.social-media:hover img {
+  opacity: 1;
+  scale: 1.05;
+  transition: 0.5s;
+  transform: translateX(-3px);
+}
+
+.social-media-img {
+  height: 50px;
+  width: 50px;
+  padding-top: 10px;
+  opacity: 0.8;
+  transition: 0.5s;
+}
+
+.social-media:hover {
+  animation: light-effect1 0.5s;
+  box-shadow: 3px 5px 10px var(--main-font-color), 2px 2px 5px var(--main-font-color) inset;
+  cursor: pointer;
+  transition: 0.3s !important;
+}
+
+@keyframes light-effect1 {
+  0% {
+    box-shadow: 3px 5px 100px var(--main-font-color), 2px 2px 10px var(--main-font-color) inset;
+  }
+  50% {
+    opacity: 0.85;
+    box-shadow: 3px 5px 10px black, 5px 5px 10px black inset;
+  }
+  90% {
+    box-shadow: 3px 5px 10px var(--main-font-color), 2px 2px 10px var(--main-font-color) inset;
+    opacity: 1;
+  }
+  95% {
+    box-shadow: 3px 5px 10px black, 5px 5px 10px black inset;
+    opacity: 0.85;
+  }
+  100% {
+    box-shadow: 3px 5px 100px var(--main-font-color), 2px 2px 10px var(--main-font-color) inset;
+    opacity: 1;
+  }
+}
+
+.lightEffect1 {
+  animation: light-effect1 0.5s;
+  text-shadow: 8px 8px 10px black;
+  opacity: 1;
+  box-shadow: 3px 5px 10px var(--main-font-color), 2px 2px 5px var(--main-font-color) inset;
+}

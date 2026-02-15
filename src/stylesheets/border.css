@@ -1,0 +1,32 @@
+.top-border {
+  transform: translateY(5vh);
+  position: fixed;
+}
+
+.bottom-border {
+  bottom: 0px;
+position: fixed;
+}
+
+.block {
+  position: fixed;
+  background-color: rgb(38, 38, 38);
+  filter: blur(50px);
+  width: 100%;
+}
+
+.block:before,
+.block:after {
+  content: "";
+  position: absolute;
+  left: -2px;
+  top: -2px;
+  /* background: linear-gradient(45deg, #fb0094, #0000ff, #00ff00,#ffff00, #ff0000, #fb0094, 
+      #0000ff, #00ff00,#ffff00, #ff0000); */
+  background-image: var(--border-gradient);
+  background-size: 400%;
+  width: 100%;
+  height: 33px;
+  z-index: -1;
+  animation: steam 15s linear infinite;
+}
