@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/sarangdeo/static/css/main.281e0e8f.css",
-    "main.js": "/sarangdeo/static/js/main.6083b643.js",
+    "main.js": "/sarangdeo/static/js/main.6b6950f8.js",
     "static/js/453.1f1f36b1.chunk.js": "/sarangdeo/static/js/453.1f1f36b1.chunk.js",
     "static/media/react.png": "/sarangdeo/static/media/react.3bc0dd755172eac0a566.png",
     "static/media/node.png": "/sarangdeo/static/media/node.290f630040630c5948b6.png",
@@ -26,11 +26,11 @@
     "static/media/github.png": "/sarangdeo/static/media/github.ed1c06d925fff0b57e32.png",
     "index.html": "/sarangdeo/index.html",
     "main.281e0e8f.css.map": "/sarangdeo/static/css/main.281e0e8f.css.map",
-    "main.6083b643.js.map": "/sarangdeo/static/js/main.6083b643.js.map",
+    "main.6b6950f8.js.map": "/sarangdeo/static/js/main.6b6950f8.js.map",
     "453.1f1f36b1.chunk.js.map": "/sarangdeo/static/js/453.1f1f36b1.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.281e0e8f.css",
-    "static/js/main.6083b643.js"
+    "static/js/main.6b6950f8.js"
   ]
 }
