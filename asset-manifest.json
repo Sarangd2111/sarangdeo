@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/sarangdeo/static/css/main.49bd180a.css",
-    "main.js": "/sarangdeo/static/js/main.e8ac2735.js",
+    "main.css": "/sarangdeo/static/css/main.fa34c889.css",
+    "main.js": "/sarangdeo/static/js/main.9e346e59.js",
     "static/js/453.1f1f36b1.chunk.js": "/sarangdeo/static/js/453.1f1f36b1.chunk.js",
     "static/media/react.png": "/sarangdeo/static/media/react.3bc0dd755172eac0a566.png",
     "static/media/node.png": "/sarangdeo/static/media/node.290f630040630c5948b6.png",
@@ -16,22 +16,29 @@
     "static/media/white_theme.png": "/sarangdeo/static/media/white_theme.fccd155b405600e07998.png",
     "static/media/c++.png": "/sarangdeo/static/media/c++.2b2276395e116be80813.png",
     "static/media/requirejs.png": "/sarangdeo/static/media/requirejs.b76872049d3f563a3743.png",
+    "static/media/violet_m.png": "/sarangdeo/static/media/violet_m.aad3fed8f26b1f185fd7.png",
+    "static/media/orange_m.png": "/sarangdeo/static/media/orange_m.7112f7783fba8e347213.png",
+    "static/media/cyan_m.png": "/sarangdeo/static/media/cyan_m.cd5ffa0eb471c4483d6f.png",
+    "static/media/yellow_m.png": "/sarangdeo/static/media/yellow_m.a7c50017ba4e7b554812.png",
+    "static/media/green_m.png": "/sarangdeo/static/media/green_m.188379651558590f8859.png",
     "static/media/whatsapp.png": "/sarangdeo/static/media/whatsapp.43a4918296128915afbb.png",
+    "static/media/white_m.png": "/sarangdeo/static/media/white_m.9af9f5e592444b58f1a1.png",
     "static/media/js.png": "/sarangdeo/static/media/js.a748d224a1f3791ac608.png",
     "static/media/instagram.png": "/sarangdeo/static/media/instagram.2d5cedd576ca1a740d7c.png",
     "static/media/java.png": "/sarangdeo/static/media/java.bd580c27fc270df4fe87.png",
     "static/media/git.png": "/sarangdeo/static/media/git.fd1a85d6be07fd88fb05.png",
+    "static/media/springboot.png": "/sarangdeo/static/media/springboot.19959484697552220974.png",
     "static/media/telegram.png": "/sarangdeo/static/media/telegram.b76beae5b2e76931bec1.png",
     "static/media/gmail.png": "/sarangdeo/static/media/gmail.a2f2146f929409405da0.png",
     "static/media/linkedin.png": "/sarangdeo/static/media/linkedin.f249b38224ca41a0b909.png",
     "static/media/github.png": "/sarangdeo/static/media/github.ed1c06d925fff0b57e32.png",
     "index.html": "/sarangdeo/index.html",
-    "main.49bd180a.css.map": "/sarangdeo/static/css/main.49bd180a.css.map",
-    "main.e8ac2735.js.map": "/sarangdeo/static/js/main.e8ac2735.js.map",
+    "main.fa34c889.css.map": "/sarangdeo/static/css/main.fa34c889.css.map",
+    "main.9e346e59.js.map": "/sarangdeo/static/js/main.9e346e59.js.map",
     "453.1f1f36b1.chunk.js.map": "/sarangdeo/static/js/453.1f1f36b1.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.49bd180a.css",
-    "static/js/main.e8ac2735.js"
+    "static/css/main.fa34c889.css",
+    "static/js/main.9e346e59.js"
   ]
 }
