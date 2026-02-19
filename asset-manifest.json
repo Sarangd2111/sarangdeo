@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/sarangdeo/static/css/main.a8069540.css",
-    "main.js": "/sarangdeo/static/js/main.f054a599.js",
+    "main.css": "/sarangdeo/static/css/main.1ff4b682.css",
+    "main.js": "/sarangdeo/static/js/main.0d3a0099.js",
     "static/js/453.1f1f36b1.chunk.js": "/sarangdeo/static/js/453.1f1f36b1.chunk.js",
     "static/media/react.png": "/sarangdeo/static/media/react.3bc0dd755172eac0a566.png",
     "static/media/node.png": "/sarangdeo/static/media/node.290f630040630c5948b6.png",
@@ -33,12 +33,12 @@
     "static/media/linkedin.png": "/sarangdeo/static/media/linkedin.f249b38224ca41a0b909.png",
     "static/media/github.png": "/sarangdeo/static/media/github.ed1c06d925fff0b57e32.png",
     "index.html": "/sarangdeo/index.html",
-    "main.a8069540.css.map": "/sarangdeo/static/css/main.a8069540.css.map",
-    "main.f054a599.js.map": "/sarangdeo/static/js/main.f054a599.js.map",
+    "main.1ff4b682.css.map": "/sarangdeo/static/css/main.1ff4b682.css.map",
+    "main.0d3a0099.js.map": "/sarangdeo/static/js/main.0d3a0099.js.map",
     "453.1f1f36b1.chunk.js.map": "/sarangdeo/static/js/453.1f1f36b1.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.a8069540.css",
-    "static/js/main.f054a599.js"
+    "static/css/main.1ff4b682.css",
+    "static/js/main.0d3a0099.js"
   ]
 }
